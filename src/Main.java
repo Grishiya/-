@@ -1,7 +1,7 @@
-import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
-    public static int[][] vulti;
+
 
     public static void main(String[] args) {
         task1();
@@ -29,6 +29,12 @@ public class Main {
 
     public static void task2() {
         System.out.println("Задача 2.");
+        Scanner input=new Scanner(System.in);//Так удобнее под условия задач работать.
+int temp=input.nextInt();
+if (temp<5)
+    System.out.println("На улице холодно нужно надеть шапку.");
+else
+    System.out.println("Сегодня тепло можно идти без шапки.");
     }
 
     public static void task3() {
